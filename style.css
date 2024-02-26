@@ -1,11 +1,11 @@
 body{
     background-color: #000;
+    font-family: "Inter", sans-serif;
 }
 
 a{
-    font-family: sans-serif;
-    text-decoration: none;
     color: #fff;
+    text-decoration: none;
 }
 
 a span{
@@ -14,13 +14,20 @@ a span{
     height: 2px;
     background-color: #fff;
     border-radius: 4px;
+    font-weight: 900;
+    font-size: large;
+    cursor: pointer;
+}
+
+a:hover{
+    font-weight: bold;
+    text-decoration: underline;
 }
 
 nav{
     display: flex;
     gap: 40px;
     justify-content: center;
-    gap: 24px;
 }
 
 nav, main{
@@ -40,6 +47,7 @@ img{
 ion-icon{
     color: #fff;
     font-size: 24px;
+    cursor: pointer;
 }
 
 footer{
