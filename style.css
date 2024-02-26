@@ -35,3 +35,11 @@ img{
     margin-bottom: 20px;
 }
 
+ion-icon{
+    color: #fff;
+    font-size: 24px;
+}
+
+footer{
+    bottom: 12px;
+}
